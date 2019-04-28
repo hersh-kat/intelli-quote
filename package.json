@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "algoliasearch": "^3.32.1",
@@ -15,6 +16,7 @@
     "bootstrap-vue": "2.0.0-rc.15",
     "chart.js": "2.8.0",
     "core-js": "2.6.5",
+    "express": "^4.16.4",
     "flatpickr": "4.5.7",
     "jquery": "^3.4.0",
     "moment": "^2.24.0",
