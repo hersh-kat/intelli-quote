@@ -9,7 +9,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: 'dashboard',
+      redirect: 'graphicMaker',
       component: DashboardLayout,
       children: [
         {
@@ -24,16 +24,6 @@ export default new Router({
           path: '/GraphicMaker',
           name: 'graphicMaker',
           component: () => import(/* webpackChunkName: "demo" */ './views/GraphicMaker.vue')
-        },
-        {
-          path: '/PosterMaker',
-          name: 'PosterMaker',
-          component: () => import(/* webpackChunkName: "demo" */ './views/PosterMaker.vue')
-        },
-        {
-          path: '/postAnalytics',
-          name: 'postAnalytics',
-          component: () => import(/* webpackChunkName: "demo" */ './views/PostAnalytics.vue')
         }
       ]
     }

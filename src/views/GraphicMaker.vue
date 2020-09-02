@@ -177,7 +177,7 @@
         detectWebEntities: false,
         isRendered: false,
         stream: null,
-        apiKey: "AIzaSyCe-f8iA8uDR2PFj5HChawAdQattxN-yx0",  //google cloud api  Browser key
+        apiKey: /*** REMOVED: Google Cloud Vision API Key ***/
         license: JSON.stringify(PesdkLicense),
         data: {               //type vision api Request
             "requests": [{

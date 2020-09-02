@@ -12,7 +12,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'KCSOC Instagram Analytics & Content',
+    name: 'IntelliQuote',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
